@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="PrimusBank Report(failed)">
+    <classes>
+      <class name="com.primusbank.tests.HybridPB">
+        <methods>
+          <include name="launchApp"/>
+          <include name="closeApp"/>
+          <include name="primusbankBatchTest"/>
+        </methods>
+      </class> <!-- com.primusbank.tests.HybridPB -->
+    </classes>
+  </test> <!-- PrimusBank Report(failed) -->
+</suite> <!-- Failed suite [Suite] -->
